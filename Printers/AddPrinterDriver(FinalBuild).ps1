@@ -435,7 +435,7 @@ Write-Host "Printer Client ready. Type 'help' for commands; 'exit' to quit." -Fo
     switch ($cmd) {
         'search' {
             if ([string]::IsNullOrWhiteSpace($Global:PrintServer) -or $Global:PrintServer -eq 'YOUR_PRINT_SERVER_NAME') {
-                $Global:PrintServer = Read-Host "Enter print server (e.g., print.city.local)"
+                $Global:PrintServer = Read-Host "Enter print server (e.g., _BLANK)"
             }
             if ($Global:PrintServer -and $Global:PrintServer -ne 'YOUR_PRINT_SERVER_NAME') {
                 [void](List-ServerQueues -Server $Global:PrintServer)
