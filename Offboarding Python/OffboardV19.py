@@ -1,10 +1,10 @@
-# ad_offboarding_gui_tk.py
+# OffboardV19.py
 # Tkinter AD Offboarding GUI (no external GUI dependencies)
 # - Windows only (calls PowerShell + RSAT ActiveDirectory)
 # - Build:
 #   python -m pip install --upgrade pip
 #   python -m pip install pyinstaller
-#   python -m PyInstaller --noconsole --onefile ad_offboarding_gui_tk.py
+#   python -m PyInstaller --noconsole --onefile OffboardV19.py
 
 __author__ = "Created by: Antonio C."  # hidden credit in source
 
