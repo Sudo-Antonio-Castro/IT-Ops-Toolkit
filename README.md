@@ -2,4 +2,4 @@
 Powershell & Python
 
 *Test*
-- [PowerShell:Test](GUI%20Powershell/GUI%20PowerShell.md)
+- [PowerShell:Test](GUI%20Powershell/GUI%20PowerShell)
