@@ -1,3 +1,5 @@
 title: Antonio Castro
 logo: 
 theme: jekyll-theme-minimal
+markdown: kramdown
+highlighter: rouge
